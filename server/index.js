@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin:"http://localhost:3000",
+        origin:["http://localhost:3000","https://frolicking-daffodil-123558.netlify.app"],
         credentials:true,
     })
 )
